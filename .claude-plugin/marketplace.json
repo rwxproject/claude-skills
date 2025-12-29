@@ -1,0 +1,22 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Community",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Community skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "adk-copilotkit-skills",
+      "description": "Skills for building full-stack AI agents using Google ADK with CopilotKit frontend via AG-UI protocol",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/google-adk-copilotkit"
+      ]
+    }
+  ]
+}

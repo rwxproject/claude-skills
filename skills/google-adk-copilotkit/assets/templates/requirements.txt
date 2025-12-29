@@ -1,0 +1,15 @@
+# Google ADK
+google-adk>=0.1.0
+
+# AG-UI Integration
+ag-ui-adk>=0.1.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+
+# Environment
+python-dotenv>=1.0.0
+
+# Optional: For MCP tools
+# mcp>=0.1.0
